@@ -1,0 +1,120 @@
+/* Estilos para el formulario en el frontend */
+#wcw-formulario {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.wcw-form-group {
+    margin-bottom: 20px;
+}
+
+.wcw-form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.wcw-form-group input[type="text"],
+.wcw-form-group input[type="email"],
+.wcw-form-group input[type="number"],
+.wcw-form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.wcw-form-group textarea {
+    height: 100px;
+}
+.wcw-form-group input:focus,
+.wcw-form-group textarea:focus {
+    outline: none;
+    border-color: #4CAF50;
+    box-shadow: 0 0 5px rgba(76,175,80,0.5);
+}
+
+#wcw-mapa {
+    height: 300px;
+    margin-top: 10px;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.wcw-submit-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.wcw-submit-btn:hover {
+    background-color: #45a049;
+}
+
+/* Estilos para la p¨¢gina de administraci¨®n */
+.wrap h1 {
+    margin-bottom: 20px;
+}
+
+#wcw-fields {
+    margin-bottom: 20px;
+}
+
+.wcw-field {
+    background-color: #f1f1f1;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.wcw-field input[type="text"],
+.wcw-field select {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+
+.wcw-field select {
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+.wcw-remove-field {
+    color: #a00;
+}
+
+#wcw-add-field {
+    margin-bottom: 20px;
+}
+
+.form-table th {
+    width: 200px;
+}
+
+.form-table td input[type="text"],
+.form-table td input[type="email"],
+.form-table td textarea {
+    width: 300px;
+}
+
+.form-table td textarea {
+    height: 100px;
+}
+@media (max-width: 600px) {
+    #wcw-formulario {
+        padding: 15px;
+    }
+    .wcw-submit-btn {
+        width: 100%;
+    }
+}
