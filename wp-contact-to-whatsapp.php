@@ -3,7 +3,7 @@
 Plugin Name: Formulario de Contacto a WhatsApp Mejorado
 Description: Crea un formulario de contacto personalizable con ubicación, envía las respuestas a WhatsApp y a Google Sheets.
 Version: 3.0
-Author: Tu Nombre
+Author: Tu Nombre german
 
 
 */
